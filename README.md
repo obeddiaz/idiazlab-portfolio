@@ -30,4 +30,3 @@ The goal of this project is to showcase my work, experiments and engineering app
 ---
 
 ## Project Structure
-

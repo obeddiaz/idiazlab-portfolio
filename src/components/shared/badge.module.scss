@@ -1,0 +1,16 @@
+@reference "tailwindcss";
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs;
+
+  &[data-variant='filled'] {
+    background: rgba(var(--chip) / var(--chip-alpha));
+    color: rgba(var(--text) / 0.85);
+    border: 1px solid rgba(var(--border) / 0.12);
+  }
+  &[data-variant='outline'] {
+    background: transparent;
+    border: 1px solid rgba(var(--border) / 0.22);
+    color: rgba(var(--text) / 0.85);
+  }
+}

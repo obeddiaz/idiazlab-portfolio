@@ -1,12 +1,10 @@
-export const EXPERIENCE = [
-  {
-    role: "Full-stack Engineer",
-    company: "Ksquare Solutions",
-    meta: "Nonprofit donation platform • React/Node/AWS",
-    bullets: [
-      "Shipped end-to-end features across donation flows (appeals, events, peer-to-peer, in-person sales).",
-      "Implemented tracking and attribution with GA4 and Meta Pixel to improve analytics quality.",
-      "Contributed to APIs and cloud infrastructure using serverless patterns and AWS services.",
-    ],
-  },
+export const EXPERIENCE_KEYS = [
+  { key: 'ksquare_bsa', bullets: 4 },
+  { key: 'globant', bullets: 3 },
+  { key: 'ticketmaster', bullets: 3 },
+  { key: 'ksquare_verizon', bullets: 3 },
+  { key: 'itexico_realsync', bullets: 3 },
+  { key: 'softtek_ge', bullets: 3 },
 ] as const;
+
+export const PREV_EXPERIENCE_KEYS = ['ticketmaster', 'tacobell', 'verizon', 'itexico', 'softtek'];

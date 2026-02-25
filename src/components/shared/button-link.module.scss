@@ -1,0 +1,25 @@
+@reference "tailwindcss";
+
+.button {
+  @apply inline-flex items-center gap-2 text-sm font-medium transition rounded-xl px-4 py-2;
+
+  &[data-variant='primary'] {
+    background: rgba(var(--accent) / 0.8);
+    color: white;
+    box-shadow: 0 12px 40px rgba(var(--accent) / 0.18);
+
+    &:hover {
+      background: rgba(var(--accent) / 0.92);
+    }
+  }
+
+  &[data-variant='ghost'] {
+    background: rgba(var(--hover) / var(--chip-alpha));
+    border: 1px solid rgba(var(--border) / var(--border-alpha));
+    color: rgba(var(--text) / 0.9);
+
+    &:hover {
+      background: rgba(var(--hover) / var(--hover-alpha));
+    }
+  }
+}

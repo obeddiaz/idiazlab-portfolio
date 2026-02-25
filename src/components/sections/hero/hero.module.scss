@@ -1,0 +1,35 @@
+@reference "tailwindcss";
+
+@layer components {
+  .hero {
+    @apply p-8 sm:p-10;
+  }
+
+  .inner {
+    @apply relative;
+  }
+
+  .badges {
+    @apply flex flex-wrap items-center gap-2;
+  }
+
+  .badgeIcon {
+    @apply mr-2 h-3.5 w-3.5 opacity-80;
+  }
+
+  .title {
+    @apply mt-6;
+  }
+
+  .description {
+    @apply mt-4 max-w-2xl;
+  }
+
+  .actions {
+    @apply mt-7 flex flex-wrap gap-3;
+  }
+
+  .actionIcon {
+    @apply h-4 w-4;
+  }
+}

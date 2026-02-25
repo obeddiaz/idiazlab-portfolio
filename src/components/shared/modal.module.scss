@@ -1,0 +1,26 @@
+@reference "tailwindcss";
+
+@layer components {
+  .modal {
+    @apply fixed inset-0 z-100 flex items-center justify-center p-4 sm:p-6;
+    .backdrop {
+      @apply absolute cursor-pointer inset-0 bg-black/50 backdrop-blur-sm;
+    }
+    .closeBtn {
+      @apply rounded-lg cursor-pointer px-2 py-1 text-sm transition hover:bg-white/10;
+      color: rgba(var(--text) / 0.85);
+    }
+    .dialog {
+      @apply relative w-full max-w-2xl rounded-2xl border border-white/10 bg-black/70 p-5 shadow-2xl outline-none backdrop-blur-md;
+      :global(.light) & {
+        @apply border-black/10 bg-white/90;
+      }
+      :global(.dark) & {
+        @apply border-white/10 bg-black/70;
+      }
+      .head {
+        @apply flex items-start justify-between gap-4;
+      }
+    }
+  }
+}

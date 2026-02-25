@@ -1,0 +1,30 @@
+@reference "tailwindcss";
+
+.typography {
+  @apply text-pretty text-base;
+  &.xs {
+    @apply text-xs;
+  }
+  &.sm {
+    @apply text-sm;
+  }
+  &.md {
+    @apply text-base;
+  }
+  &.lg {
+    @apply text-base sm:text-lg;
+  }
+}
+
+.title {
+  @apply font-semibold tracking-tight;
+  &.h1 {
+    @apply text-balance text-3xl sm:text-5xl;
+  }
+  &.h2 {
+    @apply text-xl sm:text-2xl;
+  }
+  &.h3 {
+    @apply text-sm sm:text-base;
+  }
+}

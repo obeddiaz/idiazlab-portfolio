@@ -1,0 +1,47 @@
+@reference "tailwindcss";
+
+.header {
+  @apply sticky top-0 z-50 border-b border-black/10 bg-white/10 backdrop-blur;
+}
+
+.inner {
+  @apply flex h-16 items-center justify-between;
+}
+
+.brand {
+  @apply leading-tight;
+}
+
+.title {
+  @apply text-sm font-semibold tracking-tight;
+}
+
+.subtitle {
+  @apply text-xs;
+  color: rgba(var(--muted), 0.9);
+}
+
+.nav {
+  @apply hidden items-center gap-2 sm:flex;
+}
+
+.link {
+  @apply rounded-lg px-3 py-2 text-sm transition;
+  color: rgba(var(--text), 0.75);
+}
+
+.link:hover {
+  color: rgba(var(--text), 0.95);
+}
+
+.linkInner {
+  @apply inline-flex items-center;
+}
+
+.linkLabel {
+  @apply transition-opacity;
+}
+
+.link:hover .linkLabel {
+  @apply opacity-100;
+}

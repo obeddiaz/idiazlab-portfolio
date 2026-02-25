@@ -1,0 +1,15 @@
+@reference "tailwindcss";
+
+@layer components {
+  .contact {
+    @apply my-5;
+  }
+
+  .actions {
+    @apply mt-6 flex flex-wrap gap-3;
+  }
+
+  .icon {
+    @apply h-4 w-4;
+  }
+}

@@ -1,81 +1,33 @@
-/* @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
-@import "tailwindcss";
-
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+@import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root {
-  --bg: 10 10 12;
-  --text: 236 236 239;
+html,
+body {
+  height: 100%;
 }
 
-html, body { height: 100%; }
-
 body {
-  color: rgb(var(--text));
   position: relative;
+  color: rgb(var(--text));
   background: rgb(var(--bg));
 }
 
-::selection { background: rgba(99, 102, 241, .35); }
-
-body::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-
-  background:
-    radial-gradient(1200px 600px at 20% 10%, rgba(99,102,241,.20), transparent 60%),
-    radial-gradient(900px 500px at 80% 20%, rgba(56,189,248,.14), transparent 60%),
-    radial-gradient(800px 450px at 60% 80%, rgba(244,114,182,.12), transparent 55%),
-    rgb(var(--bg));
-
-  transform: translateZ(0);
-  will-change: transform;
+::selection {
+  background: rgba(99, 102, 241, 0.35);
 }
 
 :root {
-  /* light */
-  --bg: 255 255 255;
+  --bg: 248 250 252;
   --text: 17 24 39;
   --muted: 107 114 128;
+  --surface: 255 255 255;
 
   --card: 255 255 255;
-  --card-alpha: 0.75;
-
-  --border: 17 24 39;
-  --border-alpha: 0.10;
+  --card-shadow: 0.08;
+  --card-alpha: 0.85;
+  --border: 15 23 42;
+  --border-alpha: 0.08;
 
   --chip: 17 24 39;
   --chip-alpha: 0.06;
@@ -83,26 +35,71 @@ body::before{
   --hover: 17 24 39;
   --hover-alpha: 0.08;
 
-  --accent: 99 102 241; /* indigo */
+  --accent: 79 70 229;
+  --accent2: 124 58 237;
+  --ring: 79 70 229;
+
+  --shadow: 2 6 23;
+  --success: 22 163 74;
+  --warning: 217 119 6;
+  --danger: 220 38 38;
+
+  --glow1: 79 70 229;
+  --glow2: 56 189 248;
+  --glow3: 244 114 182;
+
+  --glow1-a: 0.12;
+  --glow2-a: 0.08;
+  --glow3-a: 0.06;
 }
 
 .dark {
-  /* dark */
   --bg: 10 10 12;
-  --text: 236 236 239;
+  --text: 244 244 245;
   --muted: 161 161 170;
+  --surface: 17 17 20;
 
   --card: 255 255 255;
+  --card-shadow: 0.08;
   --card-alpha: 0.04;
-
   --border: 255 255 255;
-  --border-alpha: 0.10;
+  --border-alpha: 0.1;
 
   --chip: 255 255 255;
   --chip-alpha: 0.05;
 
   --hover: 255 255 255;
-  --hover-alpha: 0.10;
+  --hover-alpha: 0.1;
 
   --accent: 99 102 241;
+  --accent2: 147 51 234;
+  --ring: 99 102 241;
+
+  --shadow: 0 0 0;
+  --success: 34 197 94;
+  --warning: 245 158 11;
+  --danger: 239 68 68;
+
+  --glow1: 99 102 241;
+  --glow2: 56 189 248;
+  --glow3: 244 114 182;
+
+  --glow1-a: 0.2;
+  --glow2-a: 0.14;
+  --glow3-a: 0.12;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  transform: translateZ(0);
+  will-change: transform;
+  background:
+    radial-gradient(1200px 600px at 20% 10%, rgba(var(--glow1) / var(--glow1-a)), transparent 60%),
+    radial-gradient(900px 500px at 80% 20%, rgba(var(--glow2) / var(--glow2-a)), transparent 60%),
+    radial-gradient(800px 450px at 60% 80%, rgba(var(--glow3) / var(--glow3-a)), transparent 55%),
+    rgb(var(--bg));
 }

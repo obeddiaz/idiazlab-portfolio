@@ -1,0 +1,11 @@
+@reference "tailwindcss";
+
+@layer components {
+  .content {
+    @apply space-y-1 sm:space-y-4;
+  }
+  .list {
+    @apply mt-2 list-disc space-y-2 pl-5;
+    color: rgba(var(--text) / 0.85);
+  }
+}

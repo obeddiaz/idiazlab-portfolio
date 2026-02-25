@@ -1,0 +1,190 @@
+{
+  "site": {
+    "title": "IDiaz Lab",
+    "description": "Full-stack Engineer"
+  },
+  "hero": {
+    "title": "Full-stack engineer building scalable web platforms, developer tooling, and serverless systems.",
+    "description": "10+ years of experience designing and shipping production systems end-to-end using React, TypeScript, Node.js, and AWS—focused on performance, developer experience, and real business impact",
+    "badgeAvailability": "Available for roles",
+    "badgeLocation": "US / Remote",
+    "badgeFocus": "Full-stack • Platform",
+    "ctaResume": "Resume",
+    "ctaGithub": "GitHub",
+    "ctaLinkedin": "LinkedIn",
+    "ctaEmail": "Email"
+  },
+  "nav": {
+    "work": "Work",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "toggleTheme": "Toggle Theme"
+  },
+  "contact": {
+    "title": "Let’s build something useful.",
+    "description": "Email is the fastest way to reach me. I’m open to full-time or contract opportunities where I can build impactful systems.",
+    "ctaEmailMe": "Email me",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub"
+  },
+  "experience": {
+    "section": {
+      "title": "Experience",
+      "description": "A quick snapshot of where I’ve built and shipped production features."
+    },
+    "ksquare_bsa": {
+      "role": "Senior Front-End and Back-End Developer",
+      "roleShort": "Senior Full-Stack",
+      "company": "Ksquare Solutions (Boy Scouts of America)",
+      "companyShort": "Ksquare (BSA)",
+      "meta": "Donation & fundraising platform • React / Node / MySQL",
+      "metaShort": "Donations • React/Node",
+      "bullets": {
+        "0": "Led migration of legacy UI to React functional components using Hooks and Context for cleaner performance.",
+        "1": "Architected async data flows with Redux and RxJS to improve reliability under high-traffic campaigns.",
+        "2": "Built and maintained REST APIs with Node.js and Express, supporting core donation and reporting workflows.",
+        "3": "Improved delivery workflows with Git flow and CI/CD streamlining for faster, safer production releases."
+      }
+    },
+
+    "globant": {
+      "role": "Senior Software Engineer",
+      "roleShort": "Senior Engineer",
+      "company": "Globant",
+      "companyShort": "Globant",
+      "meta": "Cloud-native enterprise systems • AWS serverless / GraphQL",
+      "metaShort": "AWS Serverless • GraphQL",
+      "bullets": {
+        "0": "Delivered end-to-end development of cloud-native applications focused on scalability, automation, and integration.",
+        "1": "Implemented event-driven workflows with AWS Lambda, EventBridge, Step Functions, and DynamoDB for real-time sync.",
+        "2": "Built Serverless Framework deployments and GraphQL integrations, including ETL pipelines for change-event processing."
+      }
+    },
+
+    "ticketmaster": {
+      "role": "Software Engineer",
+      "roleShort": "Software Engineer",
+      "company": "Ticketmaster",
+      "companyShort": "Ticketmaster",
+      "meta": "Post-purchase portal • Next.js / React 18 / RTK Query",
+      "metaShort": "Next.js • RTK Query",
+      "bullets": {
+        "0": "Shipped features for ticket assignment, transfer, and closure within a high-traffic post-purchase experience.",
+        "1": "Built responsive UI using Next.js and React 18 with Redux RTK Query for predictable data access patterns.",
+        "2": "Optimized caching and state flows to improve UX responsiveness while reducing unnecessary API load."
+      }
+    },
+
+    "ksquare_verizon": {
+      "role": "Software Engineer",
+      "roleShort": "Software Engineer",
+      "company": "Ksquare Solutions (Verizon)",
+      "companyShort": "Ksquare (Verizon)",
+      "meta": "Site management platform • Redux / Git flow",
+      "metaShort": "Redux • Git flow",
+      "bullets": {
+        "0": "Designed and implemented new features and reporting tools to improve site management workflows and efficiency.",
+        "1": "Introduced Redux to reduce controller duplication, simplify maintenance, and improve long-term readability.",
+        "2": "Refactored existing modules for clearer structure and reliability, following Git flow for releases and development."
+      }
+    },
+
+    "itexico_realsync": {
+      "role": "Full Stack Developer",
+      "roleShort": "Full-Stack Dev",
+      "company": "iTexico (Real Sync)",
+      "companyShort": "iTexico (Real Sync)",
+      "meta": "Real estate integrations • Node / Express / Jenkins",
+      "metaShort": "Node • Integrations",
+      "bullets": {
+        "0": "Built REST APIs with Node.js and Express to support CRM integrations and transaction management workflows.",
+        "1": "Designed and evolved database models to match changing requirements while keeping integrations stable and clear.",
+        "2": "Improved delivery with Jenkins CI/CD and Scrum-based execution, enabling consistent releases and team velocity."
+      }
+    },
+
+    "softtek_ge": {
+      "role": "Frontend and Backend Developer",
+      "roleShort": "Full-Stack Dev",
+      "company": "Softtek (General Electric)",
+      "companyShort": "Softtek (GE)",
+      "meta": "Training platform • WordPress / AWS S3 / PHP",
+      "metaShort": "WP • AWS S3",
+      "bullets": {
+        "0": "Developed and maintained a WordPress-based training application hosted on AWS, using S3 for file storage.",
+        "1": "Built custom themes and plugins, including SSO authentication and admin tools to reduce manual operations.",
+        "2": "Created flexible plugin tooling to manage scripts, styles, and libraries from the dashboard without extra deployments."
+      }
+    }
+  },
+  "projectsSection": {
+    "title": "Featured Projects",
+    "description": "Projects that show how I think: clean architecture, DX, and shipping.",
+    "skillsTitle": "Technical Skills",
+    "viewRepo": "View repo",
+    "viewDetails": "Details",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cloudInfra": "Cloud & Infra",
+    "database": "Database"
+  },
+  "projects": {
+    "easyRoute": {
+      "title": "Easy Route Management (npm)",
+      "description": "Type-safe route generator for TypeScript apps with compile-time validation, improving navigation safety and developer experience.",
+      "tags": {
+        "0": "TypeScript",
+        "1": "Developer Tooling",
+        "2": "npm"
+      }
+    },
+    "adhdApp": {
+      "title": "ADHD Productivity App",
+      "description": "A routines-first mobile app designed to reduce decision fatigue and help structure daily workflows with simple, consistent actions.",
+      "tags": {
+        "0": "React Native",
+        "1": "Expo",
+        "2": "TypeScript"
+      }
+    },
+    "serverlessApi": {
+      "title": "Serverless API Playground",
+      "description": "Scalable REST APIs built with AWS Lambda and DynamoDB, showcasing clean architecture and serverless patterns.",
+      "tags": {
+        "0": "AWS Lambda",
+        "1": "DynamoDB",
+        "2": "Serverless"
+      }
+    },
+    "homeServer": {
+      "title": "Home Server",
+      "description": "Self-hosted infrastructure running on Raspberry Pi with Docker, enabling personal cloud services, media streaming, and custom APIs.",
+      "tags": {
+        "0": "Docker",
+        "1": "Self-hosted",
+        "2": "Raspberry Pi"
+      },
+      "details": {
+        "title": "What it does",
+        "description": "Self-hosted infrastructure on Raspberry Pi + Docker for personal cloud, media, and internal tools.",
+        "stack": "Stack",
+        "bullets": {
+          "0": "Runs containerized services for personal cloud, media streaming, and document editing.",
+          "1": "Reverse-proxy + TLS routing for multiple subdomains and internal apps.",
+          "2": "Automated backups and basic monitoring to keep services reliable."
+        },
+        "architecture": "Architecture (high-level)",
+        "architectureDescription": "ISP → Router → Reverse Proxy (TLS) → Docker services (Nextcloud/Jellyfin/etc) + volumes on SSD/NAS."
+      }
+    }
+  },
+  "global": {
+    "close": "Close",
+    "details": "Details"
+  },
+  "footer": {
+    "copyright": "© {year} IDiaz Lab. Built with Next.js.",
+    "github": "GitHub"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "site": {
+    "title": "IDiaz Lab",
+    "description": "Ingeniero Full-stack"
+  },
+  "hero": {
+    "title": "Ingeniero full-stack construyendo plataformas web escalables, herramientas para desarrolladores y sistemas serverless.",
+    "description": "Más de 10 años de experiencia diseñando y entregando sistemas en producción de punta a punta con React, TypeScript, Node.js y AWS—enfocado en rendimiento, experiencia de desarrollo y un impacto real en el negocio.",
+    "badgeAvailability": "Disponible para oportunidades",
+    "badgeLocation": "EE. UU. / Remoto",
+    "badgeFocus": "Full-stack • Plataforma",
+    "ctaResume": "CV",
+    "ctaGithub": "GitHub",
+    "ctaLinkedin": "LinkedIn",
+    "ctaEmail": "Correo"
+  },
+  "nav": {
+    "work": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "resume": "CV",
+    "toggleTheme": "Cambiar tema"
+  },
+  "contact": {
+    "title": "Construyamos algo útil.",
+    "description": "El correo es la forma más rápida de contactarme. Estoy abierto a oportunidades de tiempo completo o por contrato donde pueda construir sistemas con impacto.",
+    "ctaEmailMe": "Envíame un correo",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub"
+  },
+  "experience": {
+    "section": {
+      "title": "Experiencia",
+      "description": "Un resumen rápido de dónde he construido y entregado funcionalidades en producción."
+    },
+    "ksquare_bsa": {
+      "role": "Desarrollador Senior Front-End y Back-End",
+      "roleShort": "Senior Full-Stack",
+      "company": "Ksquare Solutions (Boy Scouts of America)",
+      "companyShort": "Ksquare (BSA)",
+      "meta": "Plataforma de donaciones y recaudación • React / Node / MySQL",
+      "metaShort": "Donaciones • React/Node",
+      "bullets": {
+        "0": "Lideré la migración de una UI legacy a componentes funcionales de React usando Hooks y Context para mejorar el rendimiento.",
+        "1": "Diseñé flujos de datos asíncronos con Redux y RxJS para aumentar la confiabilidad bajo campañas de alto tráfico.",
+        "2": "Construí y mantuve APIs REST con Node.js y Express, soportando flujos clave de donaciones y reportes.",
+        "3": "Mejoré el flujo de entrega con Git flow y optimizaciones de CI/CD para releases en producción más rápidas y seguras."
+      }
+    },
+    "globant": {
+      "role": "Ingeniero de Software Senior",
+      "roleShort": "Senior Engineer",
+      "company": "Globant",
+      "companyShort": "Globant",
+      "meta": "Sistemas empresariales cloud-native • AWS serverless / GraphQL",
+      "metaShort": "AWS Serverless • GraphQL",
+      "bullets": {
+        "0": "Entregué desarrollo end-to-end de aplicaciones cloud-native enfocadas en escalabilidad, automatización e integración.",
+        "1": "Implementé flujos event-driven con AWS Lambda, EventBridge, Step Functions y DynamoDB para sincronización en tiempo real.",
+        "2": "Construí despliegues con Serverless Framework e integraciones GraphQL, incluyendo pipelines ETL para procesar eventos de cambio."
+      }
+    },
+    "ticketmaster": {
+      "role": "Ingeniero de Software",
+      "roleShort": "Software Engineer",
+      "company": "Ticketmaster",
+      "companyShort": "Ticketmaster",
+      "meta": "Portal post-compra • Next.js / React 18 / RTK Query",
+      "metaShort": "Next.js • RTK Query",
+      "bullets": {
+        "0": "Entregué funcionalidades para asignación, transferencia y cierre de boletos dentro de una experiencia post-compra de alto tráfico.",
+        "1": "Construí UI responsiva con Next.js y React 18 usando Redux RTK Query para patrones de acceso a datos predecibles.",
+        "2": "Optimicé caché y flujos de estado para mejorar la respuesta de la UX y reducir llamadas innecesarias a la API."
+      }
+    },
+    "ksquare_verizon": {
+      "role": "Ingeniero de Software",
+      "roleShort": "Software Engineer",
+      "company": "Ksquare Solutions (Verizon)",
+      "companyShort": "Ksquare (Verizon)",
+      "meta": "Plataforma de administración de sitios • Redux / Git flow",
+      "metaShort": "Redux • Git flow",
+      "bullets": {
+        "0": "Diseñé e implementé nuevas funcionalidades y herramientas de reporteo para mejorar la administración de sitios y la eficiencia.",
+        "1": "Introduje Redux para reducir duplicación en controladores, simplificar el mantenimiento y mejorar la legibilidad a largo plazo.",
+        "2": "Refactoricé módulos existentes para mayor claridad y confiabilidad, siguiendo Git flow para desarrollo y releases."
+      }
+    },
+    "itexico_realsync": {
+      "role": "Desarrollador Full Stack",
+      "roleShort": "Full-Stack Dev",
+      "company": "iTexico (Real Sync)",
+      "companyShort": "iTexico (Real Sync)",
+      "meta": "Integraciones inmobiliarias • Node / Express / Jenkins",
+      "metaShort": "Node • Integraciones",
+      "bullets": {
+        "0": "Construí APIs REST con Node.js y Express para soportar integraciones con CRM y flujos de gestión de transacciones.",
+        "1": "Diseñé y evolucioné modelos de base de datos según requerimientos cambiantes, manteniendo integraciones estables y claras.",
+        "2": "Mejoré la entrega con Jenkins CI/CD y ejecución basada en Scrum, habilitando releases consistentes y mayor velocidad del equipo."
+      }
+    },
+    "softtek_ge": {
+      "role": "Desarrollador Frontend y Backend",
+      "roleShort": "Full-Stack Dev",
+      "company": "Softtek (General Electric)",
+      "companyShort": "Softtek (GE)",
+      "meta": "Plataforma de capacitación • WordPress / AWS S3 / PHP",
+      "metaShort": "WP • AWS S3",
+      "bullets": {
+        "0": "Desarrollé y mantuve una aplicación de capacitación basada en WordPress alojada en AWS, usando S3 para almacenamiento de archivos.",
+        "1": "Construí temas y plugins personalizados, incluyendo autenticación SSO y herramientas administrativas para reducir operaciones manuales.",
+        "2": "Creé tooling de plugins para gestionar scripts, estilos y librerías desde el panel sin necesidad de despliegues adicionales."
+      }
+    }
+  },
+  "projectsSection": {
+    "title": "Proyectos destacados",
+    "description": "Proyectos que muestran cómo pienso: arquitectura limpia, DX y entrega.",
+    "skillsTitle": "Habilidades técnicas",
+    "viewRepo": "Ver repositorio",
+    "viewDetails": "Detalles",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cloudInfra": "Cloud e Infra",
+    "database": "Base de datos"
+  },
+  "projects": {
+    "easyRoute": {
+      "title": "Easy Route Management (npm)",
+      "description": "Generador de rutas type-safe para apps TypeScript con validación en tiempo de compilación, mejorando la seguridad de navegación y la experiencia de desarrollo.",
+      "tags": {
+        "0": "TypeScript",
+        "1": "Herramientas para devs",
+        "2": "npm"
+      }
+    },
+    "adhdApp": {
+      "title": "App de productividad para TDAH",
+      "description": "Una app móvil enfocada en rutinas diseñada para reducir la fatiga de decisión y ayudar a estructurar flujos diarios con acciones simples y consistentes.",
+      "tags": {
+        "0": "React Native",
+        "1": "Expo",
+        "2": "TypeScript"
+      }
+    },
+    "serverlessApi": {
+      "title": "Serverless API Playground",
+      "description": "APIs REST escalables construidas con AWS Lambda y DynamoDB, mostrando arquitectura limpia y patrones serverless.",
+      "tags": {
+        "0": "AWS Lambda",
+        "1": "DynamoDB",
+        "2": "Serverless"
+      }
+    },
+    "homeServer": {
+      "title": "Servidor en casa",
+      "description": "Infraestructura self-hosted corriendo en Raspberry Pi con Docker, habilitando servicios personales en la nube, streaming multimedia y APIs personalizadas.",
+      "tags": {
+        "0": "Docker",
+        "1": "Self-hosted",
+        "2": "Raspberry Pi"
+      },
+      "details": {
+        "title": "Qué hace",
+        "description": "Infraestructura self-hosted en Raspberry Pi + Docker para nube personal, multimedia y herramientas internas.",
+        "stack": "Stack",
+        "bullets": {
+          "0": "Ejecuta servicios en contenedores para nube personal, streaming multimedia y edición de documentos.",
+          "1": "Reverse proxy + enrutamiento TLS para múltiples subdominios y apps internas.",
+          "2": "Backups automatizados y monitoreo básico para mantener servicios confiables."
+        },
+        "architecture": "Arquitectura (alto nivel)",
+        "architectureDescription": "ISP → Router → Reverse Proxy (TLS) → servicios Docker (Nextcloud/Jellyfin/etc) + volúmenes en SSD/NAS."
+      }
+    }
+  },
+  "global": {
+    "close": "Cerrar",
+    "details": "Detalles"
+  },
+  "footer": {
+    "copyright": "© {year} IDiaz Lab. Built with Next.js.",
+    "github": "GitHub"
+  }
+}

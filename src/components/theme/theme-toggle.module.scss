@@ -1,0 +1,32 @@
+@reference "tailwindcss";
+
+@layer components {
+  .toggle {
+    @apply relative inline-flex h-9 w-16 items-center rounded-full border backdrop-blur;
+    @apply transition-colors duration-300 cursor-pointer;
+  }
+
+  :global(.light) .toggle {
+    @apply border-black/10 bg-black/10 hover:bg-black/20;
+  }
+
+  :global(.dark) .toggle {
+    @apply border-white/10 bg-white/10 hover:bg-white/20;
+  }
+
+  .thumb {
+    @apply relative z-10 ml-1 flex h-7 w-7 items-center justify-center rounded-full;
+  }
+
+  .thumbLight {
+    @apply bg-yellow-200;
+  }
+
+  .thumbDark {
+    @apply bg-indigo-500;
+  }
+
+  .icon {
+    @apply inline-flex;
+  }
+}

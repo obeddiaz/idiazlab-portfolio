@@ -1,0 +1,27 @@
+@reference "tailwindcss";
+
+.footer {
+  @apply mt-16 border-t bg-white/2 backdrop-blur;
+  border-color: rgb(var(--border) / var(--border-alpha));
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4 py-8 sm:px-6;
+}
+
+.row {
+  @apply flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between;
+}
+
+.copy {
+  @apply text-sm;
+  color: rgb(var(--muted) / 0.95);
+}
+
+.actions {
+  @apply flex items-center gap-3;
+}
+
+.icon {
+  @apply w-5;
+}
